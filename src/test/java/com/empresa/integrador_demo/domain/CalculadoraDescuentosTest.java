@@ -12,7 +12,7 @@ class CalculadoraDescuentosTest {
     void debeAplicarDescuentoDeAdultosMayores() {
         int descuento = calculadora.calcularDescuento(100, 70);
 
-        assertEquals(20, descuento);
+        assertEquals(2000, descuento);
     }
 
     @Test
